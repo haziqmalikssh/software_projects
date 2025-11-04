@@ -1,0 +1,22 @@
+{
+  "name": "student-manager-server",
+  "version": "1.0.0",
+  "description": "Backend for Student Personal Manager System",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

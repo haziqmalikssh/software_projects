@@ -1,0 +1,12 @@
+{
+  "name": "student-manager-desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "electron:dev": "wait-on http://localhost:5173 && npx electron ."
+  },
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "wait-on": "^7.0.1"
+  }
+}
